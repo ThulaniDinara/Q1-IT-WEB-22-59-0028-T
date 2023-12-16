@@ -1,0 +1,170 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  padding: 50px 20px;
+}
+
+.navbar h1 {
+  font-weight: 900;
+  color: #165df5;
+}
+
+.navbar button {
+  background-color: transparent;
+  border: 2px solid #165df5;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #165df5;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-section {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section {
+    margin-top: 50px;
+  }
+}
+
+.hero-img {
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-data {
+    padding-top: 0px;
+  }
+}
+
+.hero-heading {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.primary-textfield {
+  border: 1px solid #165df5;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #165df5;
+  margin-top: 20px;
+}
+
+.primary-btn {
+  background-color: #165df5;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.primary-btn:hover {
+  background-color: #0b4edf;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.font-extrabold {
+  font-weight: 900;
+}
+
+.second-section {
+  margin-top: 50px;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .card-section {
+    margin: 0px;
+  }
+}
+
+.card {
+  width: 280px;
+  height: 390px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 20px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  padding-top: 20px;
+}
+
+.card1 {
+  background-color: #165df5;
+  color: #ffffff;
+}
+
+.card2 {
+  background-color: #e9f0ff;
+  color: #000000;
+  margin-top: 100px;
+}
+
+.card3 {
+  background-color: #ffe7aa;
+  color: #000000;
+}
+
+.learn-more-btn {
+  max-width: 150px;
+  margin-left: 0px;
+}
+
+.count-num {
+  font-size: 110px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  color: #165df5;
+  justify-content: center;
+
+  font-weight: 900;
+}
+
+.image3 {
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .image1 {
+    padding-bottom: 30px;
+  }
+
+  .image3 {
+    padding-top: 30px;
+  }
+
+  .count-num {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .primary-btn {
+    margin-left: 0px;
+  }
+
+  .last-btn {
+    margin-top: 10px;
+  }
+}
